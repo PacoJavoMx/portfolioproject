@@ -18,3 +18,10 @@ a {
 a:hover {
     color: #d1d1d1; /* Color gris claro para los enlaces al pasar el mouse */
 }
+
+hr {
+    border: none; /* Elimina el borde predeterminado */
+    height: 2px; /* Altura de la línea */
+    background-color: #ffffff; /* Color de la línea */
+    margin: 40px 0; /* Espacio superior e inferior */
+}
