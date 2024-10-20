@@ -1,6 +1,7 @@
 body {
     color: #ffffff; /* Color blanco para el texto de todo el cuerpo */
     background-color: #000000; /* Color de fondo negro */
+    text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -8,6 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+    text-align: justify;
     color: #ffffff; /* Color blanco para los párrafos */
 }
 
@@ -24,4 +26,12 @@ hr {
     height: 2px; /* Altura de la línea */
     background-color: #ffffff; /* Color de la línea */
     margin: 40px 0; /* Espacio superior e inferior */
+}
+
+.navbar {
+    text-align: center; /* Centra el texto */
+}
+
+.navbar-brand {
+    margin: 0 auto; /* Centra el enlace de la marca */
 }
